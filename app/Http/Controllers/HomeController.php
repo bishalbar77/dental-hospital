@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
+use App\Appointment;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +25,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $user = User::all()->count();
+        $application = Appointment::all()->count();
+        $applicationActive = Appointment::where('status',0)->count();
+        $applicationCancelled = Appointment::where('status',-1)->count();
+        return view('home')->with([
+            'application' => $application,
+            'user' => $user,
+            'applicationActive' => $applicationActive,
+            'applicationCancelled' => $applicationCancelled,
+        ]);
     }
 }

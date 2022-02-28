@@ -115,18 +115,73 @@
               <h2 class="mb-4 section-heading">Book Appointment</h2>
             </div>
           </div>
-          <form  class="info" action="">
+          <div class="container">
+            <div class="mb-3">
+              @if(Session::has('message'))
+                  <div class="alert alert-success">
+                      {{ session()->get('message') }}
+                  </div>
+              @elseif(Session::has('error_message'))
+                  <div class="alert alert-danger">
+                      {{ session()->get('error_message') }}
+                  </div>
+              @endif
+            </div>
+          </div>
+          <form  class="info" action="{{ route('add-appointment') }}" method="POST" enctype="multipart/form-data">
+            @csrf
             <div class="row">
                 <div class="col-lg-12 ">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                Appointment Date & Time
+                                Appointment Details
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                            <div class="accordion-body">
+                                <div class="form-group row">
+                                  <div class="col-lg-6 pt-3">
+                                    <label for="date">Appointment Date</label>
+                                    <input type="date" class="form-control @error('date') is-invalid @enderror" name="date" id="date" placeholder="Select Date" minDate="0">
+                                    @error('date')
+                                        <span class="invalid-feedback" role="alert">
+                                            {{ $message }}
+                                        </span>
+                                    @enderror
+                                  </div>
+                                  <div class="col-lg-6 pt-3">
+                                    <label for="time">Appointment Time</label>
+                                    <select class="custom-select form-control @error('time') is-invalid @enderror" name="time" id="time">
+                                      <option value="">Select Appointment Time</option>
+                                      <option>Morning</option>
+                                      <option>Afternoon</option>
+                                      <option>Evening</option>
+                                    </select>
+                                    @error('time')
+                                        <span class="invalid-feedback" role="alert">
+                                            {{ $message }}
+                                        </span>
+                                    @enderror
+                                  </div>
+                                </div>
+                                <div class="form-group row">
+                                  <div class="col-lg-6 pt-3">
+                                    <label for="category">Category</label>
+                                    <select class="custom-select form-control @error('category') is-invalid @enderror" name="category" id="category">
+                                      <option value="">Select Appointment Category</option>
+                                      <option value="skin" {{ app('request')->input('category') == "skin" ? 'selected' : '' }}>Skin Care</option>
+                                      <option value="dental" {{ app('request')->input('category') == "dental" ? 'selected' : '' }}>Dental Care</option>
+                                    </select>
+                                    @error('category')
+                                        <span class="invalid-feedback" role="alert">
+                                            {{ $message }}
+                                        </span>
+                                    @enderror
+                                  </div>
+                                </div>
+                            </div>
                         </div>
                         </div>
                         <div class="accordion-item">
@@ -136,7 +191,96 @@
                             </button>
                         </h2>
                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                            <div class="accordion-body">
+                              
+                              <div class="form-group row">
+                                <div class="col-lg-6 pt-3">
+                                  <label for="name">Name</label>
+                                  <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" id="name" placeholder="Patient Name">
+                                  @error('name')
+                                      <span class="invalid-feedback" role="alert">
+                                          {{ $message }}
+                                      </span>
+                                  @enderror
+                                </div>
+                                <div class="col-lg-6 pt-3">
+                                  <label for="age">Age</label>
+                                  <input type="number" class="form-control @error('age') is-invalid @enderror" name="age" id="age" placeholder="Patient Age">
+                                  @error('age')
+                                      <span class="invalid-feedback" role="alert">
+                                          {{ $message }}
+                                      </span>
+                                  @enderror
+                                </div>
+                              </div>
+                              
+                              <div class="form-group row">
+                                <div class="col-lg-6 pt-3">
+                                  <label for="phone">Phone Number</label>
+                                  <input type="number" class="form-control @error('phone') is-invalid @enderror" name="phone" id="phone" placeholder="Phone Number">
+                                  @error('name')
+                                      <span class="invalid-feedback" role="alert">
+                                          {{ $message }}
+                                      </span>
+                                  @enderror
+                                </div>
+                                <div class="col-lg-6 pt-3">
+                                  <label for="email">Email Address</label>
+                                  <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Email Address">
+                                  @error('email')
+                                      <span class="invalid-feedback" role="alert">
+                                          {{ $message }}
+                                      </span>
+                                  @enderror
+                                </div>
+                              </div>
+                              
+                              <div class="form-group row">
+                                <div class="col-lg-6 pt-3">
+                                  <label for="gender">Gender</label>
+                                  <select class="custom-select form-control @error('gender') is-invalid @enderror" name="gender" id="gender">
+                                    <option value="">Select Gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                  </select>
+                                  @error('gender')
+                                      <span class="invalid-feedback" role="alert">
+                                          {{ $message }}
+                                      </span>
+                                  @enderror
+                                </div>
+                                <div class="col-lg-6 pt-3">
+                                  <label for="family_members_count">Family members count</label>
+                                  <input type="number" class="form-control @error('family_members_count') is-invalid @enderror" name="family_members_count" id="family_members_count" placeholder="Family members count">
+                                  @error('family_members_count')
+                                      <span class="invalid-feedback" role="alert">
+                                          {{ $message }}
+                                      </span>
+                                  @enderror
+                                </div>
+                              </div>
+                              
+                              <div class="form-group row">
+                                <div class="col-lg-6 pt-3">
+                                  <label for="address">Address</label>
+                                  <input type="text" class="form-control @error('address') is-invalid @enderror" name="address" id="address" placeholder="Address">
+                                  @error('address')
+                                      <span class="invalid-feedback" role="alert">
+                                          {{ $message }}
+                                      </span>
+                                  @enderror
+                                </div>
+                                <div class="col-lg-6 pt-3">
+                                  <label for="password">Password</label>
+                                  <input type="password" class="form-control @error('password') is-invalid @enderror" name="password" id="password" placeholder="Password">
+                                  @error('password')
+                                      <span class="invalid-feedback" role="alert">
+                                          {{ $message }}
+                                      </span>
+                                  @enderror
+                                </div>
+                              </div>
+                            </div>
                         </div>
                         </div>
                     </div>
@@ -145,7 +289,7 @@
             <br><br>
             <div class="row">
                 <div class="col-lg-12">
-                    <p><a type="submit" href="#" class="btn btn-primary" style="float: right;">Confirm Appointment</a></p>
+                    <p><button type="submit" class="btn btn-primary" style="float: right;">Confirm Appointment</button></p>
                 </div>
             </div>
           </form>
@@ -181,7 +325,6 @@
   <script src="js/isotope.pkgd.min.js"></script>
 
   <script src="js/main.js"></script>
-
 
 
 </body>

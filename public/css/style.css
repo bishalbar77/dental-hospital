@@ -1311,3 +1311,11 @@ figure figcaption {
     color: #fff;
   }
   
+  .accordion-button:not(.collapsed) {
+    color: #6f42c1 !important;
+    background-color: #f0ecf9 !important;
+  }
+  .accordion-button:focus {
+    border-color: #b2a2d8 !important;
+    box-shadow: 0 0 0 0.25rem rgba(158, 77, 233, 0.25) !important;
+}

@@ -97,7 +97,7 @@
             <span class="d-block subheading">Narayani Dental &amp; Skin Centere</span>
             <h1 class="heading mb-3">Beautiful Smiles Begin Here!</h1>
             <p class="mb-5">Narayani Dental &amp; Skin Centere is a top and well known Dentist and Dental Clinic in Kendrapara HO.</p>
-            <p class="mb-4"><a href="#" class="btn btn-primary">Book Appointment</a></p>
+            <p class="mb-4"><a href="/book-appointment" class="btn btn-primary">Book Appointment</a></p>
 
 
 
@@ -271,8 +271,8 @@
             <p>We, Narayani Dental & Skin Centere, situated at Kendrapara, Orissa are designed to be different as dentists. A modern practice, we believe our patients are entitled to the best dental care available. Our skilled team of dental professionals are committed to providing you with an exceptional experience from start to finish. To this end, we offer a comprehensive array of state-of-the-art procedures, from routine care to full mouth reconstruction.</p>
 
 
-            <p><a href="#" class="btn btn-primary">Click To Book A Dental Appointment</a></p>
-            <p><a href="#" class="btn btn-primary">Click to book a skin appointment</a></p>
+            <p><a href="/book-appointment?category=dental" class="btn btn-primary">Click To Book A Dental Appointment</a></p>
+            <p><a href="/book-appointment?category=skin" class="btn btn-primary">Click to book a skin appointment</a></p>
           </div>
         </div>
       </div>
@@ -372,113 +372,113 @@
         </div>
         <div class="portfolio-item row">
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_114614740.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_114614740.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_114614740.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_114614740.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG-20200201-WA0011.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG-20200201-WA0011.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20200201-WA0011.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20200201-WA0011.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item lap col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_115247048.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_115247048.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG_20211227_114614740.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG_20211227_114614740.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_114614740.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG_20211227_114614740.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG-20200201-WA0011.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG-20200201-WA0011.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20200201-WA0011.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20200201-WA0011.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG-20201113-WA0009.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG-20201113-WA0009.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20201113-WA0009.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20201113-WA0009.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG-20210417-WA0003.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG-20210417-WA0003.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20210417-WA0003.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20210417-WA0003.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG-20211105-WA0018.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG-20211105-WA0018.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20211105-WA0018.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20211105-WA0018.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG-20211217-WA0002.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG-20211217-WA0002.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20211217-WA0002.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20211217-WA0002.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/IMG-20211217-WA0021.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/IMG-20211217-WA0021.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20211217-WA0021.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/IMG-20211217-WA0021.jpg" alt="">
               </a>
            </div>
            <div class="item gts col-lg-3 col-md-4 col-6 col-sm">
-              <a src="images/gallary/PIC_20201214_173244130.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
-              <img class="img-fluid" src="images/gallary/PIC_20201214_173244130.jpg" alt="">
+              <a href="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/PIC_20201214_173244130.jpg" class="fancylight popup-btn" data-fancybox-group="light"> 
+              <img class="img-fluid" src="http://narayanidentalskincentere.bishalrana.com/public/images/gallary/PIC_20201214_173244130.jpg" alt="">
               </a>
            </div>
         </div>
@@ -620,8 +620,8 @@
 
                     </form>
                 </div>
-
-                <div class="col-lg-5 ml-auto">
+                <br><br>
+                <div class="col-lg-5 ml-auto pt-5">
                     <h3 class="mb-3 side-title">Quick info</h3>
                     <div class="quick-contact">
 
