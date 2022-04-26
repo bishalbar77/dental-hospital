@@ -645,7 +645,7 @@
                     </div>
                     <br>
                     <div class="d-flex">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7530.296842863672!2d84.78388130419917!3d19.31936479446527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3d514ce33d3eb9%3A0x161b137bbf1dd3a1!2sNiladri%20Vihar%204th%20Lane!5e0!3m2!1sen!2sin!4v1627194098196!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.0915730371653!2d86.42481699999999!3d20.502471999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1bc5763b604415%3A0x171156e2cd5f1489!2z4Kyo4Ky-4Kyw4Ky-4K2f4Kyj4K2AIOCsoeCth-Cso-CtjeCsn-CsvuCssiDgrJXgrY3grLPgrL_grKjgrL_grJU!5e0!3m2!1sen!2sin!4v1650974159712!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
                     </div>
                     </div>
                 </div>
